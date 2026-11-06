@@ -4,9 +4,12 @@
   "description": "2009 frontend for youtube",
   "main": "back/backend.js",
   "scripts": {
-    "start": "cd back && node backend",
+    "start": "echo '{\"port\": 10000, \"ip\": \"0.0.0.0\"}' > back/config.json && cd back && node backend",
     "start_wrap": "cd back && node backend_wrap",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit"
+  },
+  "engines": {
+    "node": "18.16.0"
   },
   "keywords": [
     "2009",
@@ -17,7 +20,7 @@
   "dependencies": {
     "express": "^4.21.2",
     "google-protobuf": "3.21.2",
-    "maxmind-db-reader": "git+https://github.com/ftde0/node-maxmind-db.git",
+    "maxmind-db-reader": "git+https://github.com",
     "node-fetch": "^2.6.7",
     "node-html-parser": "5.3.3",
     "readline-sync": "^1.4.10",
