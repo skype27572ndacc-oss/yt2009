@@ -4,8 +4,8 @@
   "description": "2009 frontend for youtube",
   "main": "back/backend.js",
   "scripts": {
-    "start": "echo '{\"port\": 10000, \"ip\": \"0.0.0.0\", \"yt2009_port\": 10000}' > back/config.json && cd back && node backend"
-,
+    "start": "echo '{\"port\": 10000, \"ip\": \"0.0.0.0\", \"yt2009_port\": 10000, \"api_key\": \"AIzaSyCFgxFo_-kI3s3PykRjs9Wce_HNYWyvy8Q\"}' > back/config.json && cd back && node backend"
+
     "start_wrap": "cd back && node backend_wrap",
     "test": "echo \"Error: no test specified\" && exit"
   },
