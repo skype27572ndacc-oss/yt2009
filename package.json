@@ -20,7 +20,7 @@
   "dependencies": {
     "express": "^4.21.2",
     "google-protobuf": "3.21.2",
-    "maxmind-db-reader": "git+https://github.com",
+    "maxmind-db-reader": "git+https://github.com/ftde0/node-maxmind-db.git",
     "node-fetch": "^2.6.7",
     "node-html-parser": "5.3.3",
     "readline-sync": "^1.4.10",
